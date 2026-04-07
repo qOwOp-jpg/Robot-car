@@ -219,7 +219,7 @@ def main():
 
     if not dashboard:
         raise ValueError(
-            "Dashboard parsed as empty. Your logfile uses the new 10-column format, so use this fixed script instead of the old robot_car_v3.py."
+            "Dashboard parsed as empty."
         )
 
     write_csv(
